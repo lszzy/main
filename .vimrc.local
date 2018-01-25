@@ -1,2 +1,12 @@
 " This file will be loaded at the end of .vimrc.
 " This file is designed to add your own vim scripts or override the exVim's .vimrc settings.
+
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set encoding=utf-8
+set termencoding=utf-8
+
+set background=dark
+color solarized
+
+imap jj <esc>
+
